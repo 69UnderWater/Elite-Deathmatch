@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <title>Gangwar | Outfit-Selection</title>
+</head>
+
+<body>
+
+<div class="container">
+    <a><img class="left" src="../utils/png/left.png"></a>
+    <a><img class="right" src="../utils/png/right.png"></a>
+    <button onclick="ChooseClothing()">Auswählen</button>
+</div>
+
+<script src="./index.js"></script>
+<script src="https://kit.fontawesome.com/bbb45cb41a.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+<script>
+    let currentClothingIndex = 0
+    let clothingArray = []
+
+    function LoadClothing(clothings) {
+        clothingArray = JSON.parse(clothings)
+        currentClothingIndex = 0
+        SetTeamClothing(clothingArray[currentClothingIndex])
+    }
+
+    function ChooseClothing() {
+        mp.trigger("client:teamClothing:SelectTeamClothing", JSON.stringify(clothingArray[currentClothingIndex]))
+    }
+
+    $('.left').click(() => {
+        currentClothingIndex--
+
+        if (currentClothingIndex == -1) {
+            currentClothingIndex = clothingArray.length - 1
+        }
+
+        SetTeamClothing(clothingArray[currentClothingIndex])
+    })
+
+    $('.right').click(() => {
+        currentClothingIndex++
+
+        if (currentClothingIndex == clothingArray.length) {
+            currentClothingIndex = 0
+        }
+
+        SetTeamClothing(clothingArray[currentClothingIndex])
+    })
+
+    function SetTeamClothing(clothingData) {
+        mp.trigger("client:teamClothing:SetTeamClothing", JSON.stringify(clothingData))
+    }
+</script>
+
+</html>

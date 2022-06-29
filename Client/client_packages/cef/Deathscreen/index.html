@@ -1,0 +1,48 @@
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css">
+ 
+    <title>Gangwar | Deathscreen</title>
+</head>
+ 
+<body>
+ 
+<div class="container">
+    <div class="top-bar"></div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="health-logo"> <img src="../utils/png/plus.png"> </div>
+            <p class="name">SpielerName</p>
+            <div class="health-bar">
+                <div class="health-bar-progress"></div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="../utils/png/weapon/weapon_advancedrifle.png">
+
+        </div>
+        <div class="grid-item">
+            <img src="../utils/png/weapon/weapon_advancedrifle.png">
+        </div>  
+    </div>
+</div>
+ 
+<script src="./index.js"></script>
+<script src="https://kit.fontawesome.com/bbb45cb41a.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+ 
+<script>
+    function sethud(name, health, weapon){
+        $('.name').html(name)
+        $('.health-bar-progress').width(health + "%");
+    }
+</script>
+ 
+</html>

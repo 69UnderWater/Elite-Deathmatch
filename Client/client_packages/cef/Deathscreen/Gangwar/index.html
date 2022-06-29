@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <title>Gangwar | GangwarHUD</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-center">
+            <div class="left-bar">
+                <div class="left-inside"></div>
+            </div>
+            <div class="right-bar">
+                <div class="right-inside"></div>
+            </div>
+            <div class="points-left">
+                <p><span id="points-left-count">0</span></p>
+            </div>
+            <div class="points-right">
+                <p><span id="points-right-count">0</span></p>
+            </div>
+            <img src="../utils/logos/MG13.png" class="logo-left">
+            <img src="../utils/logos/MG13.png" class="logo-right">
+
+            <p class="timer">30:00</p>
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/bbb45cb41a.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+<script>
+    let maxDeaths = 0
+    let leftCount = 0
+    let rightCount = 0
+    let deathmatch = 0
+
+    function setup(deathmatchId, maxdeath, teamOne, teamTwo, maxTime) {
+        $('#points-left-count').text(maxdeath)
+        $('#points-right-count').text(maxdeath)
+
+        $('.logo-left').attr("src", "../utils/logos/" + teamOne + ".png")
+        $('.logo-right').attr("src", "../utils/logos/" + teamTwo + ".png")
+
+        maxDeaths = maxdeath
+        leftCount = maxdeath
+        rightCount = maxdeath
+        deathmatch = deathmatchId
+
+        setTimeout(() => {
+            startTimer(maxTime)
+        }, 1000 * 3);
+    }
+
+    function startTimer(maxPlayTime) {
+        let maxTime = 60*1*maxPlayTime
+
+        let timer = setInterval(() => {
+            if (leftCount == 0 || rightCount == 0) {
+                clearInterval(timer)
+                endOfGame()
+                return;
+            }
+
+            let minutes = ~~((maxTime % 3600) / 60)
+            let seconds = ~~(maxTime % 60)
+            if (maxTime <= 0) {
+                clearInterval(timer)
+            }
+
+            $('.timer').text(`${minutes}:${seconds}`)
+            maxTime -= 1
+        }, 1000)
+    }
+
+    function updateBar(team) {
+        let oldPercentage = 100
+
+        switch (team) {
+            case "left":
+                leftCount--
+
+                oldPercentage = Math.round($('.left-inside').width() / $('.left-inside').parent().width() * 100)
+                $('.left-inside').width(oldPercentage - percentage(maxDeaths) + '%')
+                $('#points-left-count').text(`${leftCount}`)
+                break;
+            case "right":
+                rightCount--
+
+                oldPercentage = Math.round($('.right-inside').width() / $('.right-inside').parent().width() * 100)
+                $('.right-inside').width(oldPercentage - percentage(maxDeaths) + '%')
+                $('#points-right-count').text(`${rightCount}`)
+                break;
+        }
+    }
+
+    function endOfGame() {
+        if (leftCount != 0 && rightCount == 0) {
+            mp.trigger("client:deathmatch:withdrawWinner", deathmatch, teamOne)
+        } else if (leftCount == 0 && rightCount != 0) {
+            mp.trigger("client:deathmatch:withdrawWinner", deathmatch, teamTwo)
+        } else if (leftCount == 0 && rightCount == 0) {
+            mp.trigger("client:deathmatch:withdrawWinner", deathmatch, teamOne)
+            mp.trigger("client:deathmatch:withdrawWinner", deathmatch, teamOne)
+        } else {
+            mp.trigger("client:deathmatch:withdrawWinner", deathmatch, teamTwo)
+            mp.trigger("client:deathmatch:withdrawWinner", deathmatch, teamTwo)
+        }
+    }
+
+    function percentage(totalValue) {
+        return (1 * 100) / totalValue;
+    }
+</script>
+
+</html>

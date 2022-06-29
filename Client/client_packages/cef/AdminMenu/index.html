@@ -1,0 +1,371 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <title>Gangwar | Adminmenu</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left">
+            <div class="logobackground">
+                <img class="logo" src="../utils/png/logo.png">
+            </div>
+            <ul>
+                <li>
+                    <i id="visual-tab" class="fas fa-eye-slash" style="color: #FDFDFD;"></i>
+                </li>
+                <li>
+                    <i id="world-tab" class="fas fa-globe-europe"></i>
+                </li>
+                <li>
+                    <i id="settings-tab" class="fas fa-cog"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="visual-tab">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <p class="title">Visuals</p>
+                        <div class="input-labels" style="margin-top: 2vh">
+                            <input id="confirm" type="checkbox" /><label for="confirm">
+                                <p style="padding-left: 1vw; padding-top: 0.85vh;">Names</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="names">
+                            <p class="names-username">USERNAME</p>
+                            <div class="healthbar">
+
+                            </div>
+                        </div>
+                        <img class="char" src="./img/char.png">
+                    </div>
+                </div>
+            </div>
+            <div class="world-tab">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <p class="title">Vehicle</p>
+                        <div class="world-buttons" style="margin-top: 3vh">
+                            <button>Despawn Vehicles</button>
+                            <button style="margin-top: 1vh;">Despawn Vehicles (1 min)</button>
+                            <button style="margin-top: 1vh;">Despawn Vehicles (2 min)</button>
+                            <button style="margin-top: 1vh;">Despawn Vehicles (3 min)</button>
+                            <center>
+                                <hr
+                                    style="margin-top: 1vh; margin-bottom: 1vh; outline: none; border: 0.1vh solid white; background: white; width: 92%;">
+                            </center>
+                            <input type="text" id="vehiclespawner" placeholder="VEHICLE NAME" onpaste="return false;">
+                            <input style="margin-top: 1vh;" type="number" id="vehiclespawner-color"
+                                placeholder="VEHICLE COLOR" onpaste="return false;">
+                            <button style="margin-top: 1vh;">Spawn Vehicle</button>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <p class="title">Player</p>
+                        <div class="world-player-buttons" style="margin-top: 3vh">
+                            <button>Heal life</button>
+                            <button style="margin-top: 1vh;">Heal armor</button>
+                            <button style="margin-top: 1vh;">Suicide</button>
+                            <button style="margin-top: 1vh;">Teleport to waypoint</button>
+                            <center>
+                                <hr
+                                    style="margin-top: 1vh; margin-bottom: 1vh; outline: none; border: 0.1vh solid white; background: white; width: 92%;">
+                            </center>
+                            <input type="text" id="vehiclespawner" placeholder="WEAPON NAME" onpaste="return false;">
+                            <button style="margin-top: 1vh;">GIVE WEAPON</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="settings-tab">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <p class="title">Settings</p>
+                        <div class="settings-user-menu" style="margin-top: 3vh">
+                            <input style="margin-top: 1vh;" type="number" id="getmenusize"
+                                placeholder="Menu size (max: 40)"
+                                onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"
+                                onpaste="return false">
+                            <button style="margin-top: 1vh;" onclick="addmenusize()">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-two">
+        <div class="title">
+            <div class="title-two">
+                <p class="title-three">Elite-DM</p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <img class="logo" src="../utils/png/logo.png">
+                <ul>
+                    <p style="margin-top: 2vh; margin-left: 0.75vw; color: #5B5B5B; font-size: 1.5vh;">MAIN TABS</p>
+                    <li style="margin-top: 1vh;">
+                        <p style="border-left: 0.5vh solid #3A59D6; padding-top: 0.5vh; padding-bottom: 0.5vh;"
+                            id="p-tag-visuals"><i style="margin-left: 2vw; font-size: 1.4vh; color: #383A46;"
+                                id="visual-tab-two" class="fas fa-eye-slash"> <span
+                                    style="font-weight: lighter !important;">Visuals</span></i></p>
+                    </li>
+                    <li style="margin-top: 1vh;">
+                        <p style="border-left: 0.5vh solid #1C1C1C; padding-top: 0.5vh; padding-bottom: 0.5vh;"
+                            id="p-tag-world"><i style="margin-left: 2vw; font-size: 1.4vh; color: #383A46;"
+                                id="world-tab-two" class="fas fa-globe-europe"> <span
+                                    style="font-weight: lighter !important;">World</span></i></p>
+                    </li>
+                    <li style="margin-top: 1vh;">
+                        <p style="border-left: 0.5vh solid #1C1C1C; padding-top: 0.5vh; padding-bottom: 0.5vh;"
+                            id="p-tag-settings"><i style="margin-left: 2vw; font-size: 1.4vh; color: #383A46;"
+                                id="settings-tab-two" class="fas fa-cog"> <span
+                                    style="font-weight: lighter !important;">Settings</span></i>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="nav">
+
+                </div>
+                <div class="design-switch">
+                    <i id="toggle-color-mode" class="far fa-moon"></i>
+                </div>
+                <hr style="border: 0.1vh solid white; margin-top: 1vh; margin-bottom: 1vh; background: white;">
+                <div class="container-two-visuals">
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <input id="namescheck-0x" type="checkbox" /><label for="namescheck-0x" id="seccond-switch">
+                                <p style="position: absolute; top: 0%; left: 30%;color: white; font-size: 1.5vh;">Names
+                                </p>
+                            </label>
+                        </div>
+                        <div class="grid-item">
+                            <div class="names-0x">
+                                <p class="names-username-0x">USERNAME</p>
+                                <div class="healthbar-0x">
+
+                                </div>
+                            </div>
+                            <img src="./img/char.png"
+                                style="position: relative; left: 50%; top: 56.5%; transform: translate(-50%, -50%); width: 100%; height: auto;">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-two-world">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/bbb45cb41a.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+<script>
+
+    function addmenusize() {
+        var menusize = $('#getmenusize').val()
+
+        if (menusize < 0 || menusize > 40) return
+        $('.container').width(36 + menusize / 1 + '%')
+        $('.container').height(37 + menusize / 1 + 'vh')
+        $('.grid-container').height(35 + menusize / 1 + 'vh')
+    }
+
+    // var isopen = false
+
+    // $(document.body).keypress(function (e) {
+    //     if (e.which == 13) {
+    //         if (isopen == false) {
+    //             isopen = true
+    //             $('.container').fadeIn(250);
+    //         } else {
+    //             isopen = false
+    //             $('.container').fadeOut(250);
+    //         }
+    //     }
+    // });
+
+    document.querySelector("input#vehiclespawner-color").addEventListener("input", function () {
+        const allowedCharacters = "0123456789";
+        let newValue = "";
+        this.value.split("").forEach(function (char) {
+            if (in_array(char, allowedCharacters.split(""))) newValue += char;
+        });
+        this.value = newValue;
+    });
+
+    document.querySelector("input#vehiclespawner").addEventListener("input", function () {
+        const allowedCharacters = "0123456789azertyuiopqsdfghjklmwxcvbnAZERTYUIOPQSDFGHJKLMWXCVBN";
+        let newValue = "";
+        this.value.split("").forEach(function (char) {
+            if (in_array(char, allowedCharacters.split(""))) newValue += char;
+        });
+        this.value = newValue;
+    });
+
+    function in_array(elem, array) {
+        let isIn = false;
+        for (var i = 0; i < array.length; i++) {
+            if (elem == array[i]) isIn = true;
+        }
+        return isIn;
+    }
+
+    $('#visual-tab').click(() => {
+        $('.world-tab').fadeOut(100);
+        $('.settings-tab').fadeOut(100);
+        setTimeout(() => {
+            $('#visual-tab').css('color', '#FDFDFD');
+            $('#world-tab').css('color', '#44444B');
+            $('#settings-tab').css('color', '#44444B');
+            $('.visual-tab').fadeIn(100);
+        }, 100);
+    })
+
+    $('#world-tab').click(() => {
+        $('.visual-tab').fadeOut(100);
+        $('.settings-tab').fadeOut(100);
+        setTimeout(() => {
+            $('#world-tab').css('color', '#FDFDFD');
+            $('#visual-tab').css('color', '#44444B');
+            $('#settings-tab').css('color', '#44444B');
+            $('.world-tab').fadeIn(100);
+        }, 100);
+    })
+
+    $('#settings-tab').click(() => {
+        $('.visual-tab').fadeOut(100);
+        $('.world-tab').fadeOut(100);
+        setTimeout(() => {
+            $('#world-tab').css('color', '#44444B');
+            $('#visual-tab').css('color', '#44444B');
+            $('#settings-tab').css('color', '#FDFDFD');
+            $('.settings-tab').fadeIn(100);
+        }, 100);
+    })
+
+    $("#confirm").on('change', function () {
+        if ($(this).is(':checked')) {
+            $(this).attr('value', 'true');
+            $('.names').fadeIn(250)
+        }
+        else {
+            $(this).attr('value', 'false');
+            $('.names').fadeOut(250)
+        }
+    });
+
+    var dragging = false
+    $(".container").on({
+        mousedown: function (e) {
+
+            if (event.target.id == 'plsdontmoveme') return;
+
+            dragging = true;
+            dragX = e.clientX - $(this).position().left;
+            dragY = e.clientY - $(this).position().top;
+        },
+        mouseup: function () { dragging = false; },
+        mousemove: function (e) {
+            if (dragging)
+                $(this).offset({ top: e.clientY - dragY, left: e.clientX - dragX });
+
+        }
+    })
+
+    // 0x
+    $('#world-tab-two').click(() => {
+        $('.container-two-visuals').fadeOut(100);
+        $('.container-two-setiings').fadeOut(100);
+        $('#p-tag-world').css('border-left', '0.5vh solid #3A59D6')
+        $('#p-tag-visuals').css('border-left', '0.5vh solid #1C1C1C')
+        $('#p-tag-settings').css('border-left', '0.5vh solid #1C1C1C')
+        setTimeout(() => {
+            $('.container-two-world').fadeIn(100);
+        }, 100);
+    })
+
+    $('#visual-tab-two').click(() => {
+        $('.container-two-world').fadeOut(100);
+        $('.container-two-setiings').fadeOut(100);
+        $('#p-tag-visuals').css('border-left', '0.5vh solid #3A59D6')
+        $('#p-tag-world').css('border-left', '0.5vh solid #1C1C1C')
+        $('#p-tag-settings').css('border-left', '0.5vh solid #1C1C1C')
+        setTimeout(() => {
+            $('.container-two-visuals').fadeIn(100);
+        }, 100);
+    })
+
+    $('#settings-tab-two').click(() => {
+        $('.container-two-world').fadeOut(100);
+        $('.container-two-visuals').fadeOut(100);
+        $('#p-tag-visuals').css('border-left', '0.5vh solid #1C1C1C')
+        $('#p-tag-world').css('border-left', '0.5vh solid #1C1C1C')
+        $('#p-tag-settings').css('border-left', '0.5vh solid #3A59D6')
+        setTimeout(() => {
+            $('.container-two-settings').fadeIn(100);
+        }, 100);
+    })
+
+    var islightmode = false
+    $('.container-two .right .design-switch').click(() => {
+        if (islightmode == false) {
+            $('.container-two .main').css("background-color", "#FAFAFA")
+            $('.container-two .left').css("background-color", "#F5F5F5")
+            // $('.container-two .left p').css("border", "#F5F5F5")
+            islightmode = true
+        } else {
+            $('.container-two .main').css("background-color", "#171717")
+            $('.container-two .left').css("background-color", "#1C1C1C")
+            islightmode = false
+        }
+    })
+
+    var draggingtwo = false
+    $(".container-two").on({
+        mousedown: function (e) {
+
+            // if (event.target.id == 'plsdontmoveme') return;
+
+            draggingtwo = true;
+            dragX = e.clientX - $(this).position().left;
+            dragY = e.clientY - $(this).position().top;
+        },
+        mouseup: function () { draggingtwo = false; },
+        mousemove: function (e) {
+            if (draggingtwo)
+                $(this).offset({ top: e.clientY - dragY, left: e.clientX - dragX });
+
+        }
+    })
+
+    $("#namescheck-0x").on('change', function () {
+        if ($(this).is(':checked')) {
+            $(this).attr('value', 'true');
+            $('.names-0x').fadeIn(250)
+        }
+        else {
+            $(this).attr('value', 'false');
+            $('.names-0x').fadeOut(250)
+        }
+    });
+</script>
+
+</html>

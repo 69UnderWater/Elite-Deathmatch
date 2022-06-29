@@ -1,0 +1,1423 @@
+@font-face {
+    font-family: 'main';
+    src: url(../utils/fonts/Bebas-Neue.ttf);
+}
+
+@font-face {
+    font-family: 'Amiko-Regular';
+    src: url(../utils/fonts/Amiko-Regular.ttf);
+}
+
+* {
+    user-select: none;
+    -webkit-user-drag: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'main', sans-serif;
+    text-shadow: 0.2vh 0.2vh 0.4vh #000000;
+}
+
+body {
+    /* background-image: url(../utils/example/teamselection2.jpg); */
+    background-color: #1f1f1f;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Login */
+.login-box {
+    display: none;
+    width: 20%;
+    height: auto;
+    padding-bottom: 5vh !important;
+    background-color: #191919e1;
+    box-shadow: 0px 0px 2vh 0px #1f1f1f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.25vh;
+}
+
+.login-box .title {
+    width: 100%;
+    height: 5vh;
+    background-color: #1f1f1fef;
+}
+
+.login-box .title p {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2vh;
+}
+
+.login-box input {
+    margin-top: 5vh;
+    width: 70%;
+    height: 2.5vh;
+    text-align: center;
+    background-color: #1f1f1fef;
+    outline: none;
+    border: none;
+    font-size: 1.6vh;
+    color: white;
+    border-radius: 0.5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    border-bottom: 0.25vh solid gray;
+    transition: all 500ms;
+    font-family: 'Amiko-Regular' !important;
+}
+
+.login-box button {
+    margin-top: 2.5vh;
+    width: 70%;
+    height: 2.5vh;
+    border-radius: 0.5vh;
+    outline: none;
+    border: none;
+    background-color: #fc5e03;
+    color: white;
+    font-size: 1.6vh;
+    transition: 0.5s;
+}
+
+.login-box button:hover {
+    box-shadow: 0px 0px 1.5vh 0px #1f1f1f inset;
+}
+
+.login-box button:active {
+    font-size: 1.5vh;
+}
+
+.login-box input:focus {
+    border-bottom: 0.25vh solid #fc5e03;
+}
+
+.animation {
+    animation: shake 0.25s;
+}
+
+/* Login */
+
+/* Main Screen */
+.main-screen {
+    display: none;
+}
+
+.main-screen .stripe-one {
+    position: absolute;
+    top: 9.55%;
+    left: 2.7%;
+    width: 1%;
+    height: 0.35vh;
+    background-color: white;
+    border-radius: 5vh;
+}
+
+.main-screen .stripe-two {
+    position: absolute;
+    top: 10.4%;
+    left: 2.7%;
+    width: 0.85%;
+    height: 0.35vh;
+    background-color: white;
+    border-radius: 5vh;
+}
+
+.main-screen .stripe-three {
+    position: absolute;
+    top: 11.2%;
+    left: 2.7%;
+    width: 0.67%;
+    height: 0.35vh;
+    background-color: white;
+    border-radius: 5vh;
+}
+
+.main-screen .title p {
+    color: white;
+    font-size: 8vh;
+    position: absolute;
+    left: 5.2%;
+    top: 6.1%;
+    letter-spacing: 0.1vh;
+    text-shadow: 0 0 0.4vh #fc5e03;
+}
+
+.main-screen .beta-text img {
+    width: 4%;
+    height: auto;
+    position: absolute;
+    top: 16.3%;
+    left: 4.75%;
+}
+
+.main-screen .beta-text p {
+    color: white;
+    position: absolute;
+    left: 9%;
+    top: 18.25%;
+    font-size: 2.5vh;
+    text-shadow: 0 0 0.4vh #fc5e03;
+    letter-spacing: 0.2vh;
+}
+
+.main-screen .selection {
+    position: absolute;
+    top: 70%;
+    left: 5.2%;
+    font-size: 3vh;
+    letter-spacing: 0.4vh;
+    color: white;
+}
+
+.main-screen .selection li p {
+    transition: all 500ms;
+}
+
+.main-screen .selection li p:hover {
+    transform: scale(0.97);
+}
+
+.main-screen .social-info img.discord-icon {
+    position: absolute;
+    top: 90.7%;
+    left: 5.2%;
+    width: 2%;
+    height: auto;
+}
+
+.main-screen .social-info p.discord-text {
+    position: absolute;
+    top: 91.6%;
+    left: 7.61%;
+    font-size: 1.8vh;
+    color: white;
+}
+
+.main-screen .social-info img.teamspeak-icon {
+    position: absolute;
+    top: 90.7%;
+    left: 15.44%;
+    width: 2%;
+    height: auto;
+}
+
+.main-screen .social-info p.teamspeak-text {
+    position: absolute;
+    top: 91.6%;
+    left: 17.83%;
+    font-size: 1.8vh;
+    color: white;
+}
+
+/* Main Screen */
+
+/* Mode Selection */
+
+.mode-selection {
+    display: none;
+}
+
+.mode-selection .title p {
+    position: absolute;
+    left: 5.2%;
+    top: 7%;
+    letter-spacing: 0.4vh;
+    font-size: 5vh;
+    color: white;
+}
+
+.mode-selection .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 60.2%;
+    position: absolute;
+    top: 17.4%;
+    left: 5.2%;
+}
+
+.mode-selection .grid-container #grid-top-left {
+    height: 38.65vh;
+    border-bottom: 0.75vh solid #1f1f1f6a;
+}
+
+.mode-selection .grid-container #grid-top-left:hover {
+    height: 38.65vh;
+    border-bottom: 0.75vh solid white;
+}
+
+.mode-selection .grid-container #grid-top-right {
+    height: 38.65vh;
+    border-bottom: 0.75vh solid #1f1f1f6a;
+}
+
+.mode-selection .grid-container #grid-top-right:hover {
+    height: 38.65vh;
+    border-bottom: 0.75vh solid white;
+}
+
+.mode-selection .grid-container #grid-bottom {
+    height: 16.3vh;
+    background-color: #1f1f1f6a;
+}
+
+.mode-selection .grid-container #grid-bottom p {
+    color: white;
+    font-size: 4vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mode-selection .grid-item:hover {
+    transform: scale(1.02);
+}
+
+.mode-selection .grid-item {
+    padding: 2vh;
+    text-align: center;
+    margin: 0.5vh;
+    transition: all 250ms;
+}
+
+.mode-selection #grid-top-left {
+    background-image: url(../utils/png/mainmenu/streetfight.png);
+    background-position: 25% 0%;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.mode-selection #grid-top-left img {
+    width: 20%;
+    height: auto;
+}
+
+.mode-selection #grid-top-left p.title {
+    color: white;
+    font-size: 4vh;
+    text-shadow: 0 0 0.8vh black;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.mode-selection #grid-top-left p.player-count {
+    color: white;
+    font-size: 2vh;
+    text-shadow: 0 0 0.8vh black;
+}
+
+.mode-selection #grid-top-left .div-inside {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.mode-selection #grid-top-right {
+    background-image: url(../utils/png/mainmenu/ffa.png);
+    background-position: 25% 0%;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.mode-selection #grid-top-right img {
+    width: 20%;
+    height: auto;
+}
+
+.mode-selection #grid-top-right p.title {
+    color: white;
+    font-size: 4vh;
+    text-shadow: 0 0 0.8vh black;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.mode-selection #grid-top-right p.player-count {
+    color: white;
+    font-size: 2vh;
+    text-shadow: 0 0 0.8vh black;
+}
+
+.mode-selection #grid-top-right .div-inside {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.mode-selection .daily-mission-title {
+    width: 22.15%;
+    height: 2vh;
+    position: absolute;
+    top: 32.5%;
+    left: 72.4%;
+}
+
+.mode-selection .daily-mission-title p {
+    text-align: center;
+    letter-spacing: 0.4vh;
+    font-size: 1.8vh;
+    color: white;
+}
+
+.mode-selection .daily-mission-title .stripe-left {
+    position: absolute;
+    left: 0%;
+    top: 57%;
+    background-color: white;
+    width: 21%;
+    height: 0.19vh;
+    border-radius: 5vh;
+}
+
+.mode-selection .daily-mission-title .stripe-right {
+    position: absolute;
+    left: 78.9%;
+    top: 57%;
+    background-color: white;
+    width: 21%;
+    height: 0.19vh;
+    border-radius: 5vh;
+}
+
+.mode-selection .daile-mission-list ul {
+    width: 22.2%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 72.4%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.mode-selection .daile-mission-list li img {
+    width: 18%;
+    height: auto;
+    position: relative;
+    left: 0.6%;
+}
+
+.mode-selection .daile-mission-list li p {
+    color: white;
+}
+
+.mode-selection .daile-mission-list li p.mission-title {
+    position: absolute;
+    top: 3.5%;
+    left: 23.3%;
+    font-size: 2vh;
+    font-weight: bold;
+    letter-spacing: 0.13vh;
+}
+
+.mode-selection .daile-mission-list li p.mission-content {
+    position: absolute;
+    top: 15%;
+    left: 23.3%;
+    font-size: 1.82vh;
+    letter-spacing: 0.025vh;
+}
+
+.mode-selection .daile-mission-list li p.mission-title2 {
+    position: absolute;
+    top: 36.75%;
+    left: 23.3%;
+    font-size: 2vh;
+    font-weight: bold;
+    letter-spacing: 0.13vh;
+}
+
+.mode-selection .daile-mission-list li p.mission-content2 {
+    position: absolute;
+    top: 48.5%;
+    left: 23.3%;
+    font-size: 1.82vh;
+    letter-spacing: 0.025vh;
+}
+
+.mode-selection .daile-mission-list li p.mission-title3 {
+    position: absolute;
+    top: 73.25%;
+    left: 23.3%;
+    font-size: 2vh;
+    font-weight: bold;
+    letter-spacing: 0.13vh;
+}
+
+.mode-selection .daile-mission-list li p.mission-content3 {
+    position: absolute;
+    top: 85%;
+    left: 23.3%;
+    font-size: 1.82vh;
+    letter-spacing: 0.025vh;
+}
+
+.mode-selection .daily-mission-end {
+    position: absolute;
+    left: 72.4%;
+    top: 65.9%;
+    background-color: white;
+    width: 22.15%;
+    height: 0.19vh;
+    border-radius: 5vh;
+}
+
+.mode-selection .back-from-play {
+    width: 10%;
+    height: 2.7vh;
+    background-color: transparent;
+    position: absolute;
+    left: 5.2%;
+    top: 91.7%;
+    color: white;
+}
+
+.mode-selection .back-from-play:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.mode-selection .back-from-play .left {
+    height: 100%;
+    width: 15%;
+    float: left;
+    background-color: white;
+}
+
+.mode-selection .back-from-play .left i {
+    color: black;
+    font-size: 2vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.mode-selection .back-from-play .right {
+    height: 100%;
+    width: 85%;
+    float: right;
+    background-color: transparent;
+}
+
+.mode-selection .back-from-play .right p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+}
+
+/* Mode Selection */
+
+/* main-profile */
+.main-profile {
+    display: none;
+}
+
+.main-profile .title p {
+    position: absolute;
+    left: 5.2%;
+    top: 7%;
+    letter-spacing: 0.4vh;
+    font-size: 5vh;
+    color: white;
+}
+
+.main-profile .nav-bar ul {
+    position: absolute;
+    top: 13.5%;
+    left: 5.2%;
+    font-size: 2.25vh;
+    color: white;
+}
+
+.main-profile .nav-bar li {
+    display: inline-block;
+}
+
+
+.main-profile .back-from-profile {
+    width: 10%;
+    height: 2.7vh;
+    background-color: transparent;
+    position: absolute;
+    left: 5.2%;
+    top: 91.7%;
+    color: white;
+}
+
+.main-profile .back-from-profile:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.main-profile .back-from-profile .left {
+    height: 100%;
+    width: 15%;
+    float: left;
+    background-color: white;
+}
+
+.main-profile .back-from-profile .left i {
+    color: black;
+    font-size: 2vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.main-profile .back-from-profile .right {
+    height: 100%;
+    width: 85%;
+    float: right;
+    background-color: transparent;
+}
+
+.main-profile .back-from-profile .right p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+}
+
+.main-profile .profile-overview-main {
+    width: 55.75%;
+    height: 50vh;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    /* left: 5.25%; */
+    transform: translate(-50%, 0%);
+}
+
+.main-profile .profile-overview-main .name p {
+    font-size: 4vh;
+    letter-spacing: 0.4vh;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 0%);
+    color: white;
+}
+
+.main-profile .profile-overview-main .grid-container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    position: absolute;
+    top: 29%;
+    width: 100%;
+    height: 35vh;
+}
+
+.main-profile .profile-overview-main .grid-item {
+    width: 100%;
+    text-align: center;
+}
+
+.main-profile .profile-overview-main .grid-item p {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.main-profile .profile-overview-main .grid-item p.title {
+    top: 29.5%;
+    font-size: 3.01vh;
+}
+
+.main-profile .profile-overview-main .grid-item p.item {
+    font-size: 2.5vh;
+}
+
+.main-profile .profile-overview-main .mid-bar {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0.175vh;
+    width: 100%;
+    border-radius: 5vh;
+    background-color: white;
+}
+
+/* main-profile */
+
+
+/* settings */
+.settings {
+    display: none;
+}
+
+.settings .title p {
+    position: absolute;
+    left: 5.2%;
+    top: 7%;
+    letter-spacing: 0.4vh;
+    font-size: 5vh;
+    color: white;
+}
+
+.settings .nav-bar ul {
+    position: absolute;
+    top: 13.5%;
+    left: 5.2%;
+    font-size: 2.25vh;
+    color: white;
+}
+
+.settings .nav-bar li {
+    display: inline-block;
+}
+
+.settings .back-from-settings {
+    width: 10%;
+    height: 2.7vh;
+    background-color: transparent;
+    position: absolute;
+    left: 5.2%;
+    top: 91.7%;
+    color: white;
+}
+
+.settings .back-from-settings:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.settings .back-from-settings .left {
+    height: 100%;
+    width: 15%;
+    float: left;
+    background-color: white;
+}
+
+.settings .back-from-settings .left i {
+    color: black;
+    font-size: 2vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.settings .back-from-settings .right {
+    height: 100%;
+    width: 85%;
+    float: right;
+    background-color: transparent;
+}
+
+.settings .back-from-settings .right p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+}
+
+.settings .settings-box {
+    width: 45.15%;
+    height: 67.55vh;
+    position: absolute;
+    top: 18.4%;
+    left: 5.2%;
+}
+
+.settings .settings-box li {
+    width: 100%;
+    height: 4.2vh;
+    background-color: #1f1f1f6a;
+    position: relative;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 0%);
+    margin-top: 0.5vh;
+}
+
+.settings .settings-box li button {
+    width: 5.325vw;
+    height: 3.4vh;
+    position: absolute;
+    top: 50%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    border: 0.2vh solid #fff;
+    outline: none;
+    background-color: #1f1f1fa1;
+    color: white;
+    font-size: 1.6vh;
+    transition: all 250ms;
+}
+
+.settings .settings-box li button:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.settings .settings-box li p {
+    position: absolute;
+    top: 50%;
+    left: 1.5%;
+    transform: translate(0%, -50%);
+    font-size: 1.81vh;
+    color: white;
+    letter-spacing: 0.05vh;
+}
+
+.settings .settings-box#settings-box-crosshair {
+    display: none;
+}
+
+.settings .settings-box#settings-box-language {
+    display: none;
+}
+
+.settings .settings-box#settings-box-language .container {
+    width: 45%;
+    height: auto;
+    padding-bottom: 5vh !important;
+    background-color: #191919e1;
+    box-shadow: 0px 0px 2vh 0px #1f1f1f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.25vh;
+}
+
+.settings .settings-box#settings-box-language .container .title {
+    width: 100%;
+    height: 5vh;
+    background-color: #1f1f1fef;
+}
+
+.settings .settings-box#settings-box-language .container .title p {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2vh;
+}
+
+.settings .settings-box#settings-box-language .container .column {
+    float: left;
+    width: 30.52978420%;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    transition: all 500ms;
+    padding-top: 5vh;
+}
+
+.settings .settings-box#settings-box-language .container .column:hover {
+    transform: scale(0.95);
+}
+
+.settings .settings-box#settings-box-language .container .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.settings .settings-box li input {
+    width: 5.325vw;
+    height: 3.4vh;
+    position: absolute;
+    top: 50%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    border: 0.2vh solid #fff;
+    outline: none;
+    background-color: #1f1f1fa1;
+    color: white;
+    font-size: 2vh;
+    text-align: center;
+    user-select: none;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    /* caret-color: transparent; */
+}
+
+.hud-editor {
+    display: none;
+    width: 20%;
+    height: auto;
+    background-color: #1f1f1fa1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hud-editor .title {
+    width: 100%;
+    height: 5vh;
+    background-color: #1f1f1fea;
+}
+
+.hud-editor .title p {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2vh;
+}
+
+.hud-editor input {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 2.5vh;
+    background: #1f1f1fea;
+    outline: none;
+}
+
+.hud-editor input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.3020833333333333vw;
+    height: 2.5641025641025643vh;
+    background: #fff;
+}
+
+.hud-editor input::-moz-range-thumb {
+    width: 1.3020833333333333vw;
+    height: 2.5641025641025643vh;
+    background: #fff;
+}
+
+.hud-editor button {
+    width: 5.9vw;
+    height: 3.4vh;
+    border: 0.2vh solid #fff;
+    outline: none;
+    background-color: #1f1f1fa1;
+    color: white;
+    font-size: 1.6vh;
+    transition: all 250ms;
+}
+
+.hud-editor button:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.hud-editor-hud {
+    display: none;
+}
+
+.hud-editor-hud .hud-editor-container {
+    position: absolute;
+    left: 10.58%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    width: 18%;
+    height: 13vh;
+    font-size: 1.6vh;
+}
+
+.hud-editor-hud .hud-editor-container ul li svg {
+    width: 6.25%;
+    height: auto;
+}
+
+.hud-editor-hud ul li {
+    padding-top: 0.25vh;
+}
+
+.hud-editor-hud .hud-editor-container ul li span.text {
+    position: relative;
+    top: -0.45vh;
+    margin-left: 0.25vw;
+    color: white;
+    font-size: 1.6vh;
+    letter-spacing: 0.1vh;
+}
+
+.hud-editor-hud .hud-editor-container ul li span.data {
+    position: relative;
+    top: 0%;
+    left: 10%;
+}
+
+.hud-editor-hud .hud-editor-container-stats {
+    position: absolute;
+    left: 13.58%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    width: 18%;
+    height: 13vh;
+    font-size: 1.6vh;
+}
+
+.hud-editor-hud .hud-editor-container-stats ul li span {
+    position: relative;
+    top: -0.45vh;
+    color: white;
+    font-size: 1.6vh;
+    letter-spacing: 0.1vh;
+}
+
+.hud-editor-hud .hud-editor-container-stats ul li svg {
+    width: 6.25%;
+    height: auto;
+    opacity: 0;
+}
+
+/* settings */
+
+/* teamselection */
+.main-teamselection {
+    display: none;
+}
+
+.main-teamselection .title p {
+    position: absolute;
+    left: 5.2%;
+    top: 7%;
+    letter-spacing: 0.4vh;
+    font-size: 5vh;
+    color: white;
+}
+
+.main-teamselection .nav-bar ul {
+    position: absolute;
+    top: 13.5%;
+    left: 5.2%;
+    font-size: 2.25vh;
+    color: white;
+}
+
+.main-teamselection .nav-bar li {
+    display: inline-block;
+}
+
+.main-teamselection .available-teams-public ul {
+    position: absolute;
+    top: 67.6%;
+    left: 4.2%;
+    transform: translate(0%, -50%);
+    width: 90%;
+    height: 100%;
+    padding-top: 1%;
+    padding-left: 1%;
+    display: flex;
+    overflow-x: scroll;
+    flex-direction: column;
+    flex-wrap: wrap;
+    scroll-snap-type: block;
+}
+
+.main-teamselection .available-teams-public li {
+    display: inline-block;
+    width: 22vw;
+    height: 67.5vh;
+    margin-right: 0.65vh;
+    position: relative;
+    transition: 500ms;
+    border-bottom: 0.75vh solid #1f1f1f6a;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    scroll-snap-type: both;
+}
+
+.main-teamselection .available-teams-public li:hover {
+    transform: scale(1.02);
+    border-bottom: 0.75vh solid white;
+}
+
+
+.main-teamselection .available-teams-public li img {
+    width: 50%;
+    height: auto;
+}
+
+.main-teamselection .available-teams-public li p {
+    font-size: 3vh;
+    padding-right: 1%;
+    color: white;
+}
+
+.main-teamselection .available-teams-public li .hr {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    border: 0.1vh solid white;
+    border-radius: 5vh;
+    background-color: white;
+    transform: translate(-50%, 0%);
+}
+
+.main-teamselection .available-teams-public li p.playercount {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* private teams */
+.main-teamselection .available-teams-private {
+    display: none;
+}
+
+.main-teamselection .available-teams-private ul {
+    position: absolute;
+    top: 67.6%;
+    left: 4.2%;
+    transform: translate(0%, -50%);
+    width: 90%;
+    height: 100%;
+    padding-top: 1%;
+    padding-left: 1%;
+    display: flex;
+    overflow-x: scroll;
+    flex-direction: column;
+    flex-wrap: wrap;
+    scroll-snap-type: block;
+}
+
+.main-teamselection .available-teams-private li {
+    display: inline-block;
+    width: 22vw;
+    height: 67.5vh;
+    margin-right: 0.65vh;
+    position: relative;
+    transition: 500ms;
+    border-bottom: 0.75vh solid #1f1f1f6a;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    scroll-snap-type: both;
+}
+
+.main-teamselection .available-teams-private li:hover {
+    transform: scale(1.02);
+    border-bottom: 0.75vh solid white;
+}
+
+
+.main-teamselection .available-teams-private li img {
+    width: 50%;
+    height: auto;
+}
+
+.main-teamselection .available-teams-private li p {
+    font-size: 3vh;
+    color: white;
+    padding-right: 1%;
+}
+
+.main-teamselection .available-teams-private li .hr {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    border: 0.1vh solid white;
+    border-radius: 5vh;
+    background-color: white;
+    transform: translate(-50%, 0%);
+}
+
+.main-teamselection .available-teams-private li p.playercount {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* private teams */
+
+/* FFA Selection */
+
+.main-ffa-selection {
+    display: none;
+}
+
+.main-ffa-selection .title p {
+    position: absolute;
+    left: 5.2%;
+    top: 7%;
+    letter-spacing: 0.4vh;
+    font-size: 5vh;
+    color: white;
+}
+
+.main-ffa-selection ul {
+    position: absolute;
+    top: 67.6%;
+    left: 4.2%;
+    transform: translate(0%, -50%);
+    width: 90%;
+    height: 100%;
+    padding-top: 1%;
+    padding-left: 1%;
+    display: flex;
+    overflow-x: scroll;
+    flex-direction: column;
+    flex-wrap: wrap;
+    scroll-snap-type: block;
+}
+
+.main-ffa-selection li {
+    display: inline-block;
+    width: 22vw;
+    height: 67.5vh;
+    margin-right: 0.65vh;
+    margin-bottom: 0.65vh;
+    position: relative;
+    transition: 500ms;
+    border-bottom: 0.75vh solid #1f1f1f6a;
+    background-position: 50% 50%;
+    scroll-snap-type: both;
+    background-size: 340%;
+}
+
+.main-ffa-selection li:hover {
+    transform: scale(1.02);
+    border-bottom: 0.75vh solid white;
+}
+
+.main-ffa-selection li p {
+    font-size: 3vh;
+    color: white;
+}
+
+.main-ffa-selection li .hrbottom {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    border: 0.1vh solid white;
+    border-radius: 5vh;
+    background-color: white;
+    transform: translate(-50%, 0%);
+}
+
+.main-ffa-selection li p.playercount {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-ffa-selection li p.arena-name {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-ffa-selection li .hrtop {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    border: 0.1vh solid white;
+    border-radius: 5vh;
+    background-color: white;
+    transform: translate(-50%, 0%);
+}
+
+.main-ffa-selection .back-from-ffaSelection {
+    width: 10%;
+    height: 2.7vh;
+    background-color: transparent;
+    position: absolute;
+    left: 5.2%;
+    top: 91.7%;
+    color: white;
+}
+
+.main-ffa-selection .back-from-ffaSelection:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.main-ffa-selection .back-from-ffaSelection .left {
+    height: 100%;
+    width: 15%;
+    float: left;
+    background-color: white;
+}
+
+.main-ffa-selection .back-from-ffaSelection .left i {
+    color: black;
+    font-size: 2vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.main-ffa-selection .back-from-ffaSelection .right {
+    height: 100%;
+    width: 85%;
+    float: right;
+    background-color: transparent;
+}
+
+.main-ffa-selection .back-from-ffaSelection .right p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+}
+
+/* FFA Selection */
+
+.main-teamselection .back-from-teamselection {
+    width: 10%;
+    height: 2.7vh;
+    background-color: transparent;
+    position: absolute;
+    left: 5.2%;
+    top: 91.7%;
+    color: white;
+}
+
+.main-teamselection .back-from-teamselection:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.main-teamselection .back-from-teamselection .left {
+    height: 100%;
+    width: 15%;
+    float: left;
+    background-color: white;
+}
+
+.main-teamselection .back-from-teamselection .left i {
+    color: black;
+    font-size: 2vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.main-teamselection .back-from-teamselection .right {
+    height: 100%;
+    width: 85%;
+    float: right;
+    background-color: transparent;
+}
+
+.main-teamselection .back-from-teamselection .right p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+}
+
+/* teamselection */
+
+@keyframes fadein {
+    0% {
+        top: -50%;
+    }
+    100% {
+        top: 50%;
+    }
+}
+
+@keyframes shake {
+    0% {
+        margin-left: 0
+    }
+    12% {
+        margin-left: 0
+    }
+    25% {
+        margin-left: -1vh
+    }
+    50% {
+        margin-left: 1vh
+    }
+    75% {
+        margin-left: -1vh
+    }
+    87% {
+        margin-left: 0
+    }
+    100% {
+        margin-left: 0
+    }
+}
+
+[type="checkbox"] {
+    position: absolute;
+    -webkit-appearance: none;
+}
+
+[type="checkbox"] + label {
+    position: absolute;
+    display: block;
+    font-family: sans-serif;
+    font-size: 2.5vh;
+    line-height: 1.3;
+    padding-left: 3.676470588235294vw;
+    height: 4vh;
+    width: 2vw;
+    top: 57%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+}
+
+[type="checkbox"] + label:before {
+    width: 5.125vw;
+    height: 3.117vh;
+    /* border: 0.20833333333333334vh solid #1f1f1f; */
+    background-color: #1f1f1fa1;
+    content: "";
+    margin-right: 0.7878151260504201vw;
+    transition: background-color 0.5s linear;
+    z-index: 5;
+    position: absolute;
+    top: 3%;
+    left: 5.2%;
+}
+
+[type="checkbox"] + label:after {
+    width: 50%;
+    height: 3.25vh;
+    background-color: #fff;
+    content: "";
+    transition: margin 0.1s linear;
+    position: absolute;
+    left: 0.245vw;
+    top: 0.08vh;
+    z-index: 10;
+}
+
+[type="checkbox"]:checked + label:after {
+    margin: 0 0 0 2.5vw;
+}

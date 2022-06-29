@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'main';
+    src: url(../utils/fonts/Bebas-Neue.ttf);
+}
+
+*{
+    user-select: none;
+    -webkit-user-drag: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'main', serif;
+    text-shadow: 0.2vh 0.2vh 0.4vh #000000;
+}
+
+/* body{
+    background-image: url(../utils/example/gtascreen.PNG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} */
+
+.container{
+    position: absolute;
+    left: 10.58%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    width: 18%;
+    height: 13vh;
+    font-size: 1.6vh;
+}
+
+.container ul li svg{
+    width: 6.25%;
+    height: auto;
+}
+
+ul li{
+    padding-top: 0.25vh;
+}
+
+.container ul li span.text{
+    position: relative;
+    top: -0.45vh;
+    margin-left: 0.25vw;
+    color: white;
+    font-size: 1.6vh;
+    letter-spacing: 0.1vh;
+}
+
+.container ul li span.data{
+    position: relative;
+    top: 0%;
+    left: 10%;
+}
+
+.container-stats{
+    position: absolute;
+    left: 13.58%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    width: 18%;
+    height: 13vh;
+    font-size: 1.6vh;
+}
+
+.container-stats ul li span{
+    position: relative;
+    top: -0.45vh;
+    color: white;
+    font-size: 1.6vh;
+    letter-spacing: 0.1vh;
+}
+
+.container-stats ul li svg{
+    width: 6.25%;
+    height: auto;
+    opacity: 0;
+}

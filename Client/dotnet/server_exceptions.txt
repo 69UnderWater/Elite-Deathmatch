@@ -1,0 +1,1173 @@
+
+==================[28.06.2022 19:16:34]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:16:34]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:16:35]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:16:35]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:16:35]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:16:35]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+=========================================================
+
+==================[28.06.2022 19:16:35]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:16:35]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+=========================================================
+
+==================[28.06.2022 19:16:35]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:16:35]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/TextCommandExecutor.cs:line 37
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:16:35]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/TextCommandExecutor.cs:line 37
+   at DbDataReader MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlCommand.cs:line 267
+   at DbDataReader System.Data.Common.DbCommand.ExecuteReader()
+   at object Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary<string, object> parameterValues)
+=========================================================
+
+==================[28.06.2022 19:16:35]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) i
+==================[28.06.2022 19:16:42]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:16:42]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:16:43]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:16:43]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:16:43]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:16:43]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+=========================================================
+
+==================[28.06.2022 19:16:43]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:16:43]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+=========================================================
+
+==================[28.06.2022 19:16:43]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:16:43]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/TextCommandExecutor.cs:line 37
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:16:43]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/TextCommandExecutor.cs:line 37
+   at DbDataReader MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlCommand.cs:line 267
+   at DbDataReader System.Data.Common.DbCommand.ExecuteReader()
+   at object Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary<string, object> parameterValues)
+=========================================================
+
+==================[28.06.2022 19:16:43]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.ParkoutPoints' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) i
+==================[28.06.2022 19:17:46]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:17:46]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:17:47]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:17:47]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:17:47]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:17:47]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+=========================================================
+
+==================[28.06.2022 19:17:47]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:17:47]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+=========================================================
+
+==================[28.06.2022 19:17:47]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:17:47]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/TextCommandExecutor.cs:line 37
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:17:47]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/TextCommandExecutor.cs:line 37
+   at DbDataReader MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlCommand.cs:line 267
+   at DbDataReader System.Data.Common.DbCommand.ExecuteReader()
+   at object Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary<string, object> parameterValues)
+=========================================================
+
+==================[28.06.2022 19:17:47]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehav
+==================[28.06.2022 19:17:52]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:17:52]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:17:52]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:17:52]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:17:52]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:17:52]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+=========================================================
+
+==================[28.06.2022 19:17:52]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:17:52]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+=========================================================
+
+==================[28.06.2022 19:17:52]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:17:52]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/TextCommandExecutor.cs:line 37
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:17:52]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/TextCommandExecutor.cs:line 37
+   at DbDataReader MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlCommand.cs:line 267
+   at DbDataReader System.Data.Common.DbCommand.ExecuteReader()
+   at object Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary<string, object> parameterValues)
+=========================================================
+
+==================[28.06.2022 19:17:52]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehav
+==================[28.06.2022 19:17:59]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:17:59]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:18:01]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:18:01]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 19:18:01]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:18:01]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+=========================================================
+
+==================[28.06.2022 19:18:01]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:18:01]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+=========================================================
+
+==================[28.06.2022 19:18:01]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:18:01]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/TextCommandExecutor.cs:line 37
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 19:18:01]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/TextCommandExecutor.cs:line 37
+   at DbDataReader MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlCommand.cs:line 267
+   at DbDataReader System.Data.Common.DbCommand.ExecuteReader()
+   at object Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary<string, object> parameterValues)
+=========================================================
+
+==================[28.06.2022 19:18:01]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 's.GarageOutParkPoint' in 'field list'
+   at async Task<ResultSet> MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at void MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 95
+   at async Task MySql.Data.MySqlClient.MySqlDataReader.ReadFirstResultSetAsync(IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 307
+   at async Task<MySqlDataReader> MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(MySqlCommand command, CommandBehavior behavior, ResultSetProtocol resultSetProtocol, IOBehavior ioBehavior) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 292
+   at async Task<DbDataReader> MySqlConnector.Core.TextCommandExecutor.ExecuteReaderAsync(string commandText, MySqlParameterCollection parameterCollection, CommandBehav
+==================[28.06.2022 20:12:17]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:12:17]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:12:18]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:12:18]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:12:26]==================
+System.Exception: Non-thread-safe API has been invoked out of main thread. Check NAPI.Task.Run. To ignore this, set "api-threading-debugging" to false in conf.json.
+   at void Bootstrapper.EventInternalClass.OnThreadingException()
+=========================================================
+
+==================[28.06.2022 20:12:26]==================
+System.Exception: Non-thread-safe API has been invoked out of main thread. Check NAPI.Task.Run. To ignore this, set "api-threading-debugging" to false in conf.json.
+   at void Bootstrapper.EventInternalClass.OnThreadingException()
+   at ulong GTANetworkMethods.Player.GetPlayerSocialClubId(Player player)
+   at ulong GTANetworkAPI.Player.get_SocialClubId()
+   at Task Gangwar.ServerModels.ServerAccountModel.AddAccount(Player player, string username)+() => { } in C:/Users/somme/Documents/RageMP/Servers/Elite Deathmatch/Backend/ServerModels/ServerAccountModel.cs:line 27
+   at void System.Threading.Tasks.Task.s_ecCallback(object obj)
+   at void System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, object state)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[28.06.2022 20:12:26]==================
+System.Exception: Non
+==================[28.06.2022 20:16:22]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:16:22]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:16:24]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:16:24]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:17:07]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Gangwar.Systems.GarageSystem.Garage.ParkOut(Player player, string hash, int level) in C:/Users/somme/Documents/RageMP/Servers/Elite Deathmatch/Backend/Systems/GarageSystem/Garage.cs:line 51
+=========================================================
+
+==================[28.06.2022 20:17:09]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Gangwar.Systems.GarageSystem.Garage.ParkOut(Player player, string hash, int level) in C:/Users/somme/Documents/RageMP/Servers/Elite Deathmatch/Backend/Systems/GarageSystem/Garage.cs:line 51
+=========================================================
+
+==================[28.06.2022 20:17:10]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Gangwar.Systems.GarageSystem.Garage.ParkOut(Player player, string hash, int level) in C:/Users/somme/Documents/RageMP/Servers/Elite Deathmatch/Backend/Systems/GarageSystem/Garage.cs:line 51
+=========================================================
+
+==================[28.06.2022 20:17:10]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Gangwar.Systems.GarageSystem.Garage.ParkOut(Player player, string 
+==================[28.06.2022 20:19:57]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:19:57]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:19:59]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:19:59]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:20:15]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Gangwar.Systems.GarageSystem.Garage.ParkOut(Player player, string hash, int level) in C:/Users/somme/Documents/RageMP/Servers/Elite Deathmatch/Backend/Systems/GarageSystem/Garage.cs:line 51
+=========================================================
+
+==================[28.06.2022 20:20:17]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Gangwar.Systems.GarageSystem.Garage.ParkOut(Player player, string hash, int level) in C:/Users/somme/Documents/RageMP/Servers/Elite Deathmatch/Backend/Systems/GarageSystem/Garage.cs:line 51
+=========================================================
+
+==================[28.06.2022 20:20:17]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Gangwar.Systems.GarageSystem.Garage.ParkOut(Player player, string hash, int level) in C:/Users/somme/Documents/RageMP/Servers/Elite Deathmatch/Backend/Systems/GarageSystem/Garage.cs:line 51
+=========================================================
+
+==================[28.06.2022 20:20:17]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Gangwar.Systems.GarageSystem.Garage.ParkOut(Player player, string 
+==================[28.06.2022 20:21:32]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:21:32]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:21:34]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:21:34]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:21:34]==================
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Gangwar.Objects.ParkoutPointObject]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'x', line 1, position 5.
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+=========================================================
+
+==================[28.06.2022 20:21:34]==================
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Gangwar.Objects.ParkoutPointObject]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.
+==================[28.06.2022 20:21:42]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:21:42]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:21:43]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:21:43]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:21:44]==================
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Gangwar.Objects.ParkoutPointObject]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'x', line 1, position 5.
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+=========================================================
+
+==================[28.06.2022 20:21:44]==================
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Gangwar.Objects.ParkoutPointObject]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.
+==================[28.06.2022 20:43:02]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:02]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:03]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:03]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:04]==================
+System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+=========================================================
+
+==================[28.06.2022 20:43:04]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+=========================================================
+
+==================[28.06.2022 20:43:04]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at bool Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, object target)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, string id)
+=========================================================
+
+==================[28.06.2022 20:43:04]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at bool Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, object target)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, string id)
+=========================================================
+
+==================[28.06.2022 20:43:04]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at bool Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, object target)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, object existingValue, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, bool checkAdditionalContent)
+=========================================================
+
+==================[28.06.2022 20:43:04]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReade
+==================[28.06.2022 20:43:22]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:22]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:23]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:23]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:25]==================
+System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+=========================================================
+
+==================[28.06.2022 20:43:25]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+=========================================================
+
+==================[28.06.2022 20:43:25]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at bool Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, object target)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, string id)
+=========================================================
+
+==================[28.06.2022 20:43:25]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at bool Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, object target)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, string id)
+=========================================================
+
+==================[28.06.2022 20:43:25]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at bool Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, object target)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, object existingValue, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, bool checkAdditionalContent)
+=========================================================
+
+==================[28.06.2022 20:43:25]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReade
+==================[28.06.2022 20:43:37]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:37]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:39]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:39]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\Administrator\Desktop\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[28.06.2022 20:43:40]==================
+System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+=========================================================
+
+==================[28.06.2022 20:43:40]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+=========================================================
+
+==================[28.06.2022 20:43:40]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at bool Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, object target)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, string id)
+=========================================================
+
+==================[28.06.2022 20:43:40]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at bool Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, object target)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, string id)
+=========================================================
+
+==================[28.06.2022 20:43:40]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at bool Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, object target)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, object existingValue, string id)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, bool checkAdditionalContent)
+=========================================================
+
+==================[28.06.2022 20:43:40]==================
+Newtonsoft.Json.JsonSerializationException: Error converting value 91,65648 to type 'GTANetworkAPI.Vector3'. Path '[0].Rotation', line 1, position 77.
+ ---> System.ArgumentException: Could not cast or convert from System.Double to GTANetworkAPI.Vector3.
+   at object Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(object value, Type initialType, Type targetType)
+   at object Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(object initialValue, CultureInfo culture, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at object Newtonsoft.Json.Serialization.JsonSerializerInternalReade
+==================[29.06.2022 11:13:04]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[29.06.2022 11:13:04]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[29.06.2022 11:13:05]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[29.06.2022 11:13:05]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'. Das System kann die angegebene Datei nicht finden.
+File name: 'C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Microsoft.EntityFrameworkCore.Relational.resources.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[29.06.2022 11:13:07]==================
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte. [::1]:3306
+   at void System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+=========================================================
+
+==================[29.06.2022 11:13:09]==================
+System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte. 127.0.0.1:3306
+   at void System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+=========================================================
+
+==================[29.06.2022 11:13:09]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ServerSession.cs:line 326
+=========================================================
+
+==================[29.06.2022 11:13:09]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ServerSession.cs:line 326
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[29.06.2022 11:13:09]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ServerSession.cs:line 326
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ConnectionPool.cs:line 112
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[29.06.2022 11:13:09]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ServerSession.cs:line 326
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ConnectionPool.cs:line 112
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ConnectionPool.cs:line 141
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[29.06.2022 11:13:09]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ServerSession.cs:line 326
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ConnectionPool.cs:line 112
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ConnectionPool.cs:line 141
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlConnection.cs:line 507
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[29.06.2022 11:13:09]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ServerSession.cs:line 326
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ConnectionPool.cs:line 112
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ConnectionPool.cs:line 141
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlConnection.cs:line 507
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySql.Data.MySqlClient.MySqlConnection.OpenAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlConnection.cs:line 232
+=========================================================
+
+==================[29.06.2022 11:13:09]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ServerSession.cs:line 326
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ConnectionPool.cs:line 112
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ConnectionPool.cs:line 141
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlConnection.cs:line 507
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySql.Data.MySqlClient.MySqlConnection.OpenAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/MySql.Data.MySqlClient/MySqlConnection.cs:line 232
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[29.06.2022 11:13:09]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ServerSession.cs:line 326
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:/projects/mysqlconnector/src/MySqlConnector/Core/ConnectionPool.cs:line 112
+   at

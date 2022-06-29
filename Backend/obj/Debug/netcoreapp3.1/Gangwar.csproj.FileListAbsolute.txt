@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\netcoreapp3.1\Gangwar.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\netcoreapp3.1\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\netcoreapp3.1\Gangwar.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\netcoreapp3.1\Gangwar.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\netcoreapp3.1\Gangwar.csproj.CoreCompileInputs.cache

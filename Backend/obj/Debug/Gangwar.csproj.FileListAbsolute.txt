@@ -1,0 +1,113 @@
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\server-files\dotnet\resources\Gangwar\Debug\Gangwar.deps.json
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\server-files\dotnet\resources\Gangwar\Debug\Gangwar.runtimeconfig.json
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\server-files\dotnet\resources\Gangwar\Debug\Gangwar.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\server-files\dotnet\resources\Gangwar\Debug\Gangwar.dll
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\server-files\dotnet\resources\Gangwar\Debug\Gangwar.pdb
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\Gangwar.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\Gangwar.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\Gangwar.dll
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\Gangwar.pdb
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\Gangwar.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\Gangwar.Properties.Resources.resources
+C:\Users\Admin\Desktop\Gangwar Server\gangwar-new\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.GenerateResource.cache
+D:\Git\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.Properties.Resources.resources
+D:\Git\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.GenerateResource.cache
+D:\Git\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.AssemblyInfoInputs.cache
+D:\Git\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.AssemblyInfo.cs
+D:\Git\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.CoreCompileInputs.cache
+D:\Git\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.dll
+D:\Git\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.pdb
+D:\Git\elite-server\server-files\dotnet\resources\Gangwar\Debug\Gangwar.deps.json
+D:\Git\elite-server\server-files\dotnet\resources\Gangwar\Debug\Gangwar.runtimeconfig.json
+D:\Git\elite-server\server-files\dotnet\resources\Gangwar\Debug\Gangwar.runtimeconfig.dev.json
+D:\Git\elite-server\server-files\dotnet\resources\Gangwar\Debug\Gangwar.dll
+D:\Git\elite-server\server-files\dotnet\resources\Gangwar\Debug\Gangwar.pdb
+D:\Git\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\Gangwar\obj\Debug\Gangwar.Properties.Resources.resources
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\Gangwar\obj\Debug\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\Gangwar\obj\Debug\Gangwar.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\Gangwar\obj\Debug\Gangwar.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\Gangwar\obj\Debug\Gangwar.dll
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\Gangwar\obj\Debug\Gangwar.pdb
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\Gangwar\obj\Debug\Gangwar.genruntimeconfig.cache
+C:\GitHub\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.AssemblyReference.cache
+C:\GitHub\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.Properties.Resources.resources
+C:\GitHub\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.GenerateResource.cache
+C:\GitHub\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.AssemblyInfoInputs.cache
+C:\GitHub\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.AssemblyInfo.cs
+C:\GitHub\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.CoreCompileInputs.cache
+C:\GitHub\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.dll
+C:\GitHub\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.pdb
+C:\GitHub\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.genruntimeconfig.cache
+C:\builds\Debug\Gangwar.deps.json
+C:\builds\Debug\Gangwar.runtimeconfig.json
+C:\builds\Debug\Gangwar.runtimeconfig.dev.json
+C:\builds\Debug\Gangwar.dll
+C:\builds\Debug\Gangwar.pdb
+D:\Git\elite-server\Gangwar\Gangwar\obj\Debug\Gangwar.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\elite_backend\obj\Debug\Gangwar.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\elite_backend\obj\Debug\Gangwar.Properties.Resources.resources
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\elite_backend\obj\Debug\Gangwar.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\elite_backend\obj\Debug\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\elite_backend\obj\Debug\Gangwar.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\elite_backend\obj\Debug\Gangwar.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\elite_backend\obj\Debug\Gangwar.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\elite_backend\obj\Debug\Gangwar.dll
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\elite_backend\obj\Debug\Gangwar.pdb
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\elite_backend\obj\Debug\Gangwar.csproj.CopyComplete
+C:\Users\Admin\Desktop\Gangwar Server\Gangwar\elite_backend\obj\Debug\Gangwar.genruntimeconfig.cache
+Y:\#2 GitHub\#2 Elite-DM\elite_backend\obj\Debug\Gangwar.csproj.AssemblyReference.cache
+Y:\#2 GitHub\#2 Elite-DM\elite_backend\obj\Debug\Gangwar.Properties.Resources.resources
+Y:\#2 GitHub\#2 Elite-DM\elite_backend\obj\Debug\Gangwar.csproj.GenerateResource.cache
+Y:\#2 GitHub\#2 Elite-DM\elite_backend\obj\Debug\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+Y:\#2 GitHub\#2 Elite-DM\elite_backend\obj\Debug\Gangwar.AssemblyInfoInputs.cache
+Y:\#2 GitHub\#2 Elite-DM\elite_backend\obj\Debug\Gangwar.AssemblyInfo.cs
+Y:\#2 GitHub\#2 Elite-DM\elite_backend\obj\Debug\Gangwar.csproj.CoreCompileInputs.cache
+Y:\#2 GitHub\#2 Elite-DM\elite_backend\obj\Debug\Gangwar.csproj.CopyComplete
+Y:\#2 GitHub\#2 Elite-DM\elite_backend\obj\Debug\Gangwar.dll
+Y:\#2 GitHub\#2 Elite-DM\elite_backend\obj\Debug\Gangwar.pdb
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Backend\obj\Debug\Gangwar.csproj.AssemblyReference.cache
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Backend\obj\Debug\Gangwar.Properties.Resources.resources
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Backend\obj\Debug\Gangwar.csproj.GenerateResource.cache
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Backend\obj\Debug\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Backend\obj\Debug\Gangwar.AssemblyInfoInputs.cache
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Backend\obj\Debug\Gangwar.AssemblyInfo.cs
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Backend\obj\Debug\Gangwar.csproj.CoreCompileInputs.cache
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Backend\obj\Debug\Gangwar.dll
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Backend\obj\Debug\Gangwar.pdb
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\elitedm\Debug\Gangwar.deps.json
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\elitedm\Debug\Gangwar.runtimeconfig.json
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\elitedm\Debug\Gangwar.runtimeconfig.dev.json
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\elitedm\Debug\Gangwar.dll
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\elitedm\Debug\Gangwar.pdb
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Backend\obj\Debug\Gangwar.csproj.CopyComplete
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Backend\obj\Debug\Gangwar.genruntimeconfig.cache
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Gangwar.deps.json
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Gangwar.runtimeconfig.json
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Gangwar.runtimeconfig.dev.json
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Gangwar.dll
+C:\Users\somme\Documents\RageMP\Servers\Elite Deathmatch\Client\dotnet\resources\Gangwar\Debug\Gangwar.pdb
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Gangwar.deps.json
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Gangwar.runtimeconfig.json
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Gangwar.runtimeconfig.dev.json
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Gangwar.dll
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Client\dotnet\resources\Gangwar\Debug\Gangwar.pdb
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Backend\obj\Debug\Gangwar.csproj.AssemblyReference.cache
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Backend\obj\Debug\Gangwar.Properties.Resources.resources
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Backend\obj\Debug\Gangwar.csproj.GenerateResource.cache
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Backend\obj\Debug\Gangwar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Backend\obj\Debug\Gangwar.AssemblyInfoInputs.cache
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Backend\obj\Debug\Gangwar.AssemblyInfo.cs
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Backend\obj\Debug\Gangwar.csproj.CoreCompileInputs.cache
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Backend\obj\Debug\Gangwar.csproj.CopyComplete
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Backend\obj\Debug\Gangwar.dll
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Backend\obj\Debug\Gangwar.pdb
+C:\Users\somme\Documents\RageMP\script\Elite-Deathmatch\Backend\obj\Debug\Gangwar.genruntimeconfig.cache

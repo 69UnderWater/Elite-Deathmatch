@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'main';
+    src: url(../utils/fonts/Bebas-Neue.ttf);
+}
+
+*{
+    user-select: none;
+    -webkit-user-drag: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+    font-family: 'main';
+    text-shadow: 0.2vh 0.2vh 0.4vh #000000;
+}
+
+/* body{
+    background-image: url(../utils/example/Inventory.jpg);
+} */
+
+.container{
+    position: absolute;
+    width: 45%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .nav-bar{
+    width: 100%;
+    height: 4.5vh;
+    background-color: #1f1f1fcb;
+    border-top: 0.5vh solid #fc5e03;
+    margin-bottom: 1.25vh;
+}
+
+.nav-bar ul{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    padding-right: 2.5vh;
+}
+
+.nav-bar ul li p{
+    color: white;
+    font-size: 2vh;
+    letter-spacing: 0.1vh;
+    transition: color 250ms;
+}
+
+.nav-bar ul li p:hover{
+    color: #fc5e03;
+}
+
+.container .main{
+    width: 100%;
+    height: 67.75vh;
+    background-color: #1f1f1fcb;
+}
+
+.container .main .inventory .applyitem{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: auto;
+    padding-bottom: 1.25vh;
+    background-color: #1f1f1fcb;
+    border-radius: 0.25vh;
+    box-shadow: 0px 0px 2vh 0px black;
+}
+
+.container .main .inventory .applyitem p.title{
+    margin-top: 1.25vh;
+    font-size: 2vh;
+    color: white;
+    text-align: center;
+}
+
+.container .main .inventory .applyitem hr{
+    margin-top: 1.25vh;
+    margin-bottom: 1.25vh;
+    width: 90%;
+    border: 0.1vh solid white;
+    background: white;
+    text-align: center;
+}
+
+.container .main .inventory button{
+    width: 90%;
+    height: 4vh;
+    outline: none;
+    border: none;
+    font-size: 2vh;
+    text-shadow: 0 0 2vh white;
+    box-shadow: 0px 0px 1.5vh 0.1vh black inset;
+    border-radius: 0.25vh;
+    color: white;
+    transition: all 250ms;
+}
+.container .main .inventory button:hover{
+    box-shadow: 0px 0px 1.5vh 0.1vh #1f1f1f inset;
+}
+
+.container .main .inventory button:active{
+    font-size: 1.89vh;
+}
+
+.container .main .inventory{
+    width: 100%;
+    height: 100%;
+}
+
+.container .main .inventory ul{
+    margin-left: 0.75vw;
+    margin-right: 0.75vw;
+    height: 94%;
+    overflow-y: scroll;
+}
+
+.container .main .inventory ul li{
+    float: left;
+    width: 22.34%;
+    height: 15.557vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
+    background-color: #1f1f1fcb;
+    border-radius: 0.25vh;
+    list-style: none;
+}
+
+.container .main .inventory ul li .img{
+    width: auto;
+    height: 12vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .main .inventory ul li img{
+    width: auto;
+    height: 12vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .main .inventory ul li p.item-count{
+    position: relative;
+    top: 10%;
+    left: 1%;
+    font-size: 1.6vh;
+    color: white;
+}
+
+.container .main .kit-creator{
+    width: 100%;
+    height: 100%;
+}
+
+.container .main .kit-creator ul{
+    margin-top: 1vh;
+    margin-left: 0.75vw;
+    margin-right: 0.75vw;
+    padding-bottom: 1vh;
+}
+
+.container .main .kit-creator ul li{
+    float: left;
+    width: 31%;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    background-color: #1f1f1fcb;
+    list-style: none;
+    border-radius: 0.25vh;
+}
+
+.container .main .kit-creator ul li img{
+    width: 60%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .main .kit-creator .stripe-left{
+    position: relative;
+    top: 9.55%;
+    left: 2.7%;
+    width: 1%;
+    height: 0.35vh;
+    background-color: white;
+    border-radius: 5vh;
+}
+
+.container .main .kit-creator .daily-mission-title{
+    margin-top: 1vh;
+    width: 100%;
+    height: 2vh;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.container .main .kit-creator .daily-mission-title p{
+    text-align: center;
+    letter-spacing: 0.4vh;
+    font-size: 1.81vh;
+    color: white;
+}
+
+.container .main .kit-creator .daily-mission-title .stripe-left{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    background-color: white;
+    width: 39%;
+    height: 0.19vh;
+    border-radius: 5vh;
+}
+
+.container .main .kit-creator .daily-mission-title .stripe-right{
+    position: absolute;
+    left: 60.95%;
+    top: 50%;
+    background-color: white;
+    width: 39%;
+    height: 0.19vh;
+    border-radius: 5vh;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }

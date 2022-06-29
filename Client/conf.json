@@ -1,0 +1,10 @@
+{
+	"maxplayers" : 100,
+	"name" : "Elite Deathmatch | Original Copy", 
+	"gamemode" : "freeroam", 
+	"stream-distance" : 500.0,
+	"announce" : false,
+	"csharp" : "enable",
+	"port": 22005,
+	"api-threading-debugging": false
+}

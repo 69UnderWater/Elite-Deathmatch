@@ -1,0 +1,255 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <title>Gangwar | Inventory</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="nav-bar">
+            <ul>
+                <li>
+                    <p id="inventory-tab" style="color: #fc5e03;">Inventar</p>
+                </li>
+                <li style="padding: 0 !important;">
+                    <p id="kit-creator-tab">Kit-Creator</p>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="inventory">
+                <ul style="margin-top: 1.5vh;"></ul>
+
+                <div class="applyitem">
+                    <p id="applyitem-title" class="title">ITEM NAME</p>
+                    <center>
+                        <hr>
+                        <button onclick="useItem();" style="background-color: #006600;">Benutzen</button>
+                        <button onclick="removeItem();" style="background-color: #8B0000; margin-top: 1.25vh;">Wegwerfen</button>
+                        <hr>
+                        <button style="background-color: #8B0000; margin-top: 1.25vh;"
+                            onclick="abortItemMenu();">Abbrechen</button>
+                    </center>
+                </div>
+            </div>
+            <div class="kit-creator">
+                <div class="daily-mission-title">
+                    <p id="daily-missions-title">Kurzwaffen</p>
+                    <div class="stripe-left"></div>
+                    <div class="stripe-right"></div>
+                </div>
+                <ul>
+                    <li onclick="selecthandweapon(453432689)">
+                        <img src="../utils/png/weapon/453432689.png">
+                    </li>
+                    <li onclick="selecthandweapon(-1716589765)">
+                        <img src="../utils/png/weapon/-1716589765.png">
+                    </li>
+                    <li onclick="selecthandweapon(-771403250)">
+                        <img src="../utils/png/weapon/-771403250.png">
+                    </li>
+                    <li onclick="selecthandweapon(137902532)">
+                        <img src="../utils/png/weapon/137902532.png">
+                    </li>
+                    <li onclick="selecthandweapon(727643628)">
+                        <img src="../utils/png/weapon/727643628.png">
+                    </li>
+                    <li onclick="selecthandweapon(-1045183535)">
+                        <img src="../utils/png/weapon/-1045183535.png">
+                    </li>
+                </ul>
+                <div class="daily-mission-title">
+                    <p id="daily-missions-title">Langwaffen</p>
+                    <div class="stripe-left"></div>
+                    <div class="stripe-right"></div>
+                </div>
+                <ul>
+                    <li onclick="selectlongweapon(736523883)">
+                        <img src="../utils/png/weapon/736523883.png">
+                    </li>
+                    <li onclick="selectlongweapon(171789620)">
+                        <img src="../utils/png/weapon/171789620.png">
+                    </li>
+                    <li onclick="selectlongweapon(1627465347)">
+                        <img src="../utils/png/weapon/1627465347.png">
+                    </li>
+                    <li onclick="selectlongweapon(487013001)">
+                        <img src="../utils/png/weapon/487013001.png">
+                    </li>
+                    <li onclick="selectlongweapon(2017895192)">
+                        <img src="../utils/png/weapon/2017895192.png">
+                    </li>
+                    <li onclick="selectlongweapon(-1654528753)">
+                        <img src="../utils/png/weapon/-1654528753.png">
+                    </li>
+                    <li onclick="selectlongweapon(-1074790547)">
+                        <img src="../utils/png/weapon/-1074790547.png">
+                    </li>
+                    <li onclick="selectlongweapon(-2084633992)">
+                        <img src="../utils/png/weapon/-2084633992.png">
+                    </li>
+                    <li onclick="selectlongweapon(-1357824103)">
+                        <img src="../utils/png/weapon/-1357824103.png">
+                    </li>
+                    <li onclick="selectlongweapon(-1063057011)">
+                        <img src="../utils/png/weapon/-1063057011.png">
+                    </li>
+                    <li onclick="selectlongweapon(2132975508)">
+                        <img src="../utils/png/weapon/2132975508.png">
+                    </li>
+                    <li onclick="selectlongweapon(1649403952)">
+                        <img src="../utils/png/weapon/1649403952.png">
+                    </li>
+                </ul>
+                <div class="daily-mission-title">
+                    <p id="daily-missions-title">Aktuelles Kit</p>
+                    <div class="stripe-left"></div>
+                    <div class="stripe-right"></div>
+                </div>
+                <div class="currentweapons">
+                    <ul>
+                        <li style="width: 47.7%; height: 13.75vh;">
+                            <img src="../utils/png/weapon/weapon_heavypistol.png" style="width: 70%; height: auto;"
+                                id="firstweapon">
+                        </li>
+                        <li style="width: 47.7%; height: 13.75vh;">
+                            <img src="../utils/png/weapon/weapon_gusenberg.png" style="width: 70%; height: auto;"
+                                id="seccondweapon">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/bbb45cb41a.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+<script>
+    let currentItem = ""
+
+    let json = ""
+
+    function abortItemMenu() {
+        $('.applyitem').fadeOut(250)
+    }
+
+    // $('.Inventory ul li').click(() => {
+    //     $('.applyitem').fadeIn(250)
+    // })
+
+    function useItem() {
+        let itemAmount = parseInt($('#item-count-' + currentItem).text())
+        let itemIndex = json.indexOf(json.find(x => x.Name == currentItem))
+
+        if ((itemAmount - 1) == 0) {
+            $('#item-name-' + currentItem).remove()
+            abortItemMenu()
+
+            if (itemIndex !== -1) {
+                json.splice(itemIndex)
+            }
+
+            mp.trigger("Client:Inventory:UseItem", currentItem)
+            mp.trigger("client:inventory:updateInventoryList", JSON.stringify(json))
+            return;
+        }
+
+        $('#item-count-' + currentItem).text(itemAmount - 1)
+        json.find(x => x.Name == currentItem).Amount = (itemAmount - 1)
+        abortItemMenu()
+
+        mp.trigger("Client:Inventory:UseItem", currentItem)
+        mp.trigger("client:inventory:updateInventoryList", JSON.stringify(json))
+    }
+
+    function removeItem() {
+        let itemAmount = parseInt($('#item-count-' + currentItem).text())
+        let itemIndex = json.indexOf(json.find(x => x.Name == currentItem))
+
+        if ((itemAmount - 1) == 0) {
+            $('#item-name-' + currentItem).remove()
+            abortItemMenu()
+
+            mp.trigger("client:inventory:updateInventoryList", JSON.stringify(json))
+            mp.trigger("Client:Inventory:RemoveItem", currentItem)
+            return;
+        }
+
+        $('#item-count-' + currentItem).text(itemAmount - 1)
+        json.find(x => x.Name == currentItem).Amount = (itemAmount - 1)
+        abortItemMenu()
+
+        mp.trigger("client:inventory:updateInventoryList", JSON.stringify(json))
+        mp.trigger("Client:Inventory:RemoveItem", currentItem)
+    }
+
+    function applyItemMenu(ItemName) {
+        $('.applyitem').fadeIn(250)
+        $('#applyitem-title').text(ItemName)
+        currentItem = ItemName
+    }
+
+    $('#kit-creator-tab').click(() => {
+        $('.inventory').fadeOut(100)
+        $('#kit-creator-tab').css('color', '#fc5e03')
+        $('#inventory-tab').css('color', 'white')
+        setTimeout(() => {
+            $('.kit-creator').fadeIn(100)
+        }, 100);
+    })
+
+    $('#inventory-tab').click(() => {
+        $('.kit-creator').fadeOut(100)
+        $('#inventory-tab').css('color', '#fc5e03')
+        $('#kit-creator-tab').css('color', 'white')
+        setTimeout(() => {
+            $('.inventory').fadeIn(100)
+        }, 100);
+    })
+
+    function selecthandweapon(weaponhash) {
+        $('#firstweapon').attr('src', '../utils/png/weapon/' + weaponhash + '.png');
+        mp.trigger("Client:Inventory:SetInventoryFirstWeapon", weaponhash);
+    }
+
+    function selectlongweapon(weaponhash) {
+        $('#seccondweapon').attr('src', '../utils/png/weapon/' + weaponhash + '.png');
+        mp.trigger("Client:Inventory:SetInventorySeccondWeapon", weaponhash);
+    }
+
+    function setCurrentSelectedWeapons(first, seccond) {
+        $('#firstweapon').attr('src', '../utils/png/weapon/' + first + '.png');
+        $('#seccondweapon').attr('src', '../utils/png/weapon/' + seccond + '.png');
+    }
+
+    function loadItems(pItems) {
+        var items = JSON.parse(pItems)
+        var $itemsList = ""
+        for (var i in items) {
+            $itemsList += `
+            <li id="item-name-${items[i].Name}" onclick="applyItemMenu('${items[i].Name}')">
+                <div class="img">
+                    <img src="./img/${(items[i].Name).toLowerCase()}.png">
+                </div>
+                <p class="item-count"><span id="item-count-${items[i].Name}">${items[i].Amount}</span> <span>x</span></p>
+            </li>`
+        }
+
+        json = items
+
+        $('.inventory ul').prepend($itemsList)
+    }
+</script>
+
+</html>

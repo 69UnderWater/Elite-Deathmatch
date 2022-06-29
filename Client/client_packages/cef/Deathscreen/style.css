@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'main';
+    src: url(../utils/fonts/Bebas-Neue.ttf);
+}
+
+*{
+    user-select: none;
+    -webkit-user-drag: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'main';
+    overflow: hidden;
+}
+
+body{
+    background-image: url(../utils/example/deathscreen.PNG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container .top-bar{
+    position: absolute;
+    top: 76.25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 0.05vh;
+    border-radius: 5vh;
+    width: 89.5%;
+}
+
+.container .grid-container {
+    display: grid;
+    grid-template-columns: 30.16666666666667% 30.16666666666667% 30.16666666666667%;
+    width: 90.5%;
+    height: 23.5vh;
+    position: absolute;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+}
+
+.container .grid-item {
+    background-color: rgba(255, 255, 255, 0.507);
+    text-align: center;
+}
+
+.container .grid-item .health-logo{
+    width: 5vh;
+    height: 5vh;
+    background-color: #C02B2B;
+    position: relative;
+    left: 7.5%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.container .grid-item .health-logo img{
+    width: 65%;
+    height: auto;
+    transform: rotate(-45deg) !important;
+    padding: 0.75vh;
+}
+
+.container .grid-item .health-bar{
+    width: 17.1%;
+    height: 0.8vh;
+    /* background-color: #C02B2B; */
+    background-color: #1f1f1fc2;
+    position: absolute;
+    top: 50%;
+    left: 14.75%;
+    transform: translate(-50%, -50%);
+}
+
+.container .grid-item .health-bar-progress{
+    width: 0%;
+    height: 100%;
+    background-color: #C02B2B;
+}
+
+.container .grid-item .name{
+    position: absolute;
+    left: 6.1%;
+    top: 32%;
+    font-size: 2.5vh;
+    color: white;
+}

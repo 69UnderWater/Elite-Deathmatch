@@ -1,0 +1,44 @@
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css">
+ 
+    <title>Gangwar | Speedometer</title>
+</head>
+ 
+<body>
+ 
+<div class="container">
+    
+</div>
+ 
+<script src="./index.js"></script>
+<script src="https://kit.fontawesome.com/bbb45cb41a.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+ 
+<script>
+ 
+function initalizeSpeedometer(kmh, rpm, gang) {
+    var html = ``;
+
+    html += `<p class="speed">` + kmh + `<span class="kmh">KMH</span></p>`;
+    html += `<div class="rpm-container">`
+    html += `<div class="rpm"> `
+    html += `</div>`
+    html += `</div>`
+    html += `<p class="gear">GEAR <span id="gear">` + gang + `</span></p>`
+
+    $(".container").html(html);
+
+    $(".rpm").width(rpm + "px");
+}
+
+</script>
+ 
+</html>

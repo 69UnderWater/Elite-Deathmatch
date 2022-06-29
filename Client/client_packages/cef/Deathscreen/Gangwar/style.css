@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'main';
+    src: url(../utils/fonts/Bebas-Neue.ttf);
+}
+
+*{
+    user-select: none;
+    -webkit-user-drag: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'main';
+}
+
+.left-bar{
+    position: absolute;
+    left: 28.66%;
+    top: 5.78%;
+    background-color: #1f1f1fce;
+    width: 13.3%;
+    height: 0.7vh;
+    border-radius: 0.15vh;
+}
+
+.right-bar{
+    position: absolute;
+    left: 58.03%;
+    top: 5.78%;
+    background-color: #1f1f1fce;
+    width: 13.3%;
+    height: 0.7vh;
+    border-radius: 0.15vh;
+}
+
+img.logo-left{
+    width: 2%;
+    height: auto;
+    position: absolute;
+    left: 45.06%;
+    top: 4.32%;
+}
+
+img.logo-right{
+    width: 2%;
+    height: auto;
+    position: absolute;
+    left: 53.15%;
+    top: 4.32%;
+}
+
+.points-left{
+    position: absolute;
+    left: 42.05%;
+    top: 5%;
+    width: 3.15%;
+    height: 2vh;
+    background-color: transparent;
+    padding-bottom: 1vh;
+}
+
+.points-left p{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vh;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1vh;
+    text-shadow: 1px 1px #000;
+}
+
+.points-right{
+    position: absolute;
+    left: 54.995%;
+    top: 5%;
+    width: 2.95%;
+    height: 2vh;
+    background-color: transparent;
+    padding-bottom: 1vh;
+}
+
+.right-bar .right-inside{
+    width: 100%;
+    height: 100%;
+    background-color: #B93729;
+    float: right;
+}
+
+.left-bar .left-inside{
+    width: 100%;
+    height: 100%;
+    background-color: #439ECC;
+}
+
+.points-right p{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vh;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1vh;
+    text-shadow: 1px 1px #000;
+}
+
+.container-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+}
+
+.container-center p.timer{
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3vh;
+    letter-spacing: 0.1vh;
+    text-shadow: 1px 1px #000;
+}

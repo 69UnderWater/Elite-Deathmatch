@@ -1,0 +1,63 @@
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css">
+ 
+    <title>Gangwar | Langzageselect</title>
+</head>
+ 
+<body>
+<div class="container">
+    <div class="title">
+        <p id="title">Please select your language</p>
+    </div>
+    <div class="row">
+        <center>
+            <div class="column">
+                <img onclick="selectLanguage('de')" src="./img/ge.png" id="de" style="width:100%">
+            </div>
+            <div class="column">
+                <img onclick="selectLanguage('en')" src="./img/eng.png" id="en" style="width:100%">
+            </div>
+            <div class="column">
+                <img onclick="selectLanguage('ru')" src="./img/ru.png" id="ru" style="width:100%">
+            </div>
+        </center>
+      </div>
+</div>
+ 
+<script src="https://kit.fontawesome.com/bbb45cb41a.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+ 
+<script>
+    $('#de').hover(
+        function () {
+            $('#title').html("Wähle deine Sprache")
+        }
+    )
+
+    $('#en').hover(
+        function () {
+            $('#title').html('Please select your language')
+        }
+    )
+
+    $('#ru').hover(
+        function () {
+            $('#title').html('Пожалуйста, выберите свой язык')
+        }
+    )
+
+    function selectLanguage(language) {
+        console.log(language);
+        mp.trigger("client:selectLanguage", language);
+    }
+</script>
+ 
+</html>

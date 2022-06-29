@@ -1,0 +1,173 @@
+{
+  "english": {
+    "login": {
+      "title": "Registration",
+      "button": "Register",
+      "placeholder": "Username"
+    },
+    "main": {
+      "play": {
+        "dailyMissions": "Daily Missions",
+        "modeSelection": "Play",
+        "gridSelectionText": "Players",
+        "streetfightTitle": "Streetfight",
+        "freeforallTitle": "Free For All",
+        "soonText": "Soon"
+      },
+      "profile": {
+        "title": "Profile",
+        "kills": "Kills",
+        "deaths": "Deaths",
+        "kd": "K/D",
+        "money": "Money",
+        "level": "Level",
+        "playedHours": "Hours Played"
+      },
+      "settings": {
+        "title": "Settings",
+        "languageSettings": {
+          "title": "Please select your language"
+        }
+      },
+      "teamSelection": {
+        "title": "Team Selection",
+        "publicFactions": "Public Factions",
+        "privateFactions": "Private Factions"
+      },
+      "text": {
+        "backButton": "Back",
+        "ffaArenaTitle": "FFA Arena Selection",
+        "langText": "Language Selection",
+        "playerText": "Players"
+      }
+    },
+    "garage": {
+      "button": "Park Out"
+    },
+    "inventory": {
+      "inventoryTabName": "Inventory",
+      "kitCreatorTabName": "Kit Creator",
+      "useItemButton": "Use",
+      "removeItemButton": "Remove",
+      "cancelButton": "Cancel",
+      "shortWeaponName": "Shortweapon",
+      "longWeaponName": "Longweapon",
+      "currentKitName": "Current Kit"
+    }
+  },
+  "german": {
+    "login": {
+      "title": "Registrierung",
+      "button": "Registrieren",
+      "placeholder": "Benutzername"
+    },
+    "main": {
+      "play": {
+        "dailyMissions": "Tages Missionen",
+        "modeSelection": "Spielen",
+        "gridSelectionText": "Spieler",
+        "streetfightTitle": "Streetfight",
+        "freeforallTitle": "Free For All",
+        "soonText": "Bald"
+      },
+      "profile": {
+        "title": "Profil",
+        "kills": "Kills",
+        "deaths": "Deaths",
+        "kd": "K/D",
+        "money": "Geld",
+        "level": "Level",
+        "playedHours": "Spielstunden"
+      },
+      "settings": {
+        "title": "Einstellungen",
+        "languageSettings": {
+          "title": "Bitte wähle deine Sprache aus"
+        }
+      },
+      "teamSelection": {
+        "title": "Teamauswahl",
+        "publicFactions": "Öffentliche Fraktionen",
+        "privateFactions": "Private Fraktionen"
+      },
+      "text": {
+        "backButton": "Zurück",
+        "ffaArenaTitle": "FFA Arena Auswahl",
+        "langText": "Sprachauswahl",
+        "playerText": "Spieler"
+      },
+      "profile": "Profil",
+      "settings": "Einstellungen"
+    },
+    "garage": {
+      "button": "Ausparken"
+    },
+    "inventory": {
+      "inventoryTabName": "Inventar",
+      "kitCreatorTabName": "Kit Ersteler",
+      "useItemButton": "Benutzen",
+      "removeItemButton": "Entfernen",
+      "cancelButton": "Abbrechen",
+      "shortWeaponName": "Kurzwaffen",
+      "longWeaponName": "Langwaffen",
+      "currentKitName": "Aktuelles Kit"
+    }
+  },
+  "russian": {
+    "login": {
+      "title": "Регистрация",
+      "button": "Зарегистрироваться",
+      "placeholder": "Имя пользователя"
+    },
+    "main": {
+      "play": {
+        "dailyMissions": "Ежедневные миссии",
+        "modeSelection": "Играть",
+        "gridSelectionText": "игроки",
+        "streetfightTitle": "СТРИТФАЙТ",
+        "freeforallTitle": "БЕСПЛАТНО ДЛЯ ВСЕХ",
+        "soonText": "СКОРО"
+      },
+      "profile": {
+        "title": "Профиль",
+        "kills": "Убивает",
+        "deaths": "deaths",
+        "kd": "К/Д",
+        "money": "Деньги",
+        "level": "Уровень",
+        "playedHours": "сыгранные часы"
+      },
+      "settings": {
+        "title": "Настройки",
+        "languageSettings": {
+          "title": "Пожалуйста, выберите ваш язык"
+        }
+      },
+      "teamSelection": {
+        "title": "Выбор команды",
+        "publicFactions": "Общественные группы",
+        "privateFactions": "Частные фракции"
+      },
+      "text": {
+        "backButton": "Назад",
+        "ffaArenaTitle": "Выбор арены FFA",
+        "langText": "Выбор языка",
+        "playerText": "Игроки"
+      },
+      "settings": "Настройки"
+    },
+    "garage": {
+      "button": "Парковка на улице"
+    },
+    "inventory": {
+      "inventoryTabName": "Инвентаризация",
+      "kitCreatorTabName": "Создатель комплекта",
+      "useItemButton": "Используйте",
+      "removeItemButton": "Удалить",
+      "cancelButton": "Отмена",
+      "shortWeaponName": "Короткоствольное оружие",
+      "longWeaponName": "Длинные руки",
+      "currentKitName": "Текущий комплект"
+    }
+  }
+}
