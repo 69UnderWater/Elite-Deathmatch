@@ -1,10 +1,11 @@
 {
 	"maxplayers" : 100,
-	"name" : "Elite Deathmatch | Original Copy", 
-	"gamemode" : "freeroam", 
+	"name" : "Elite Deathmatch | Original Copy | Translation DE, ENG, RU [Gangwar]", 
+	"gamemode" : "Deathmatch", 
 	"stream-distance" : 500.0,
-	"announce" : false,
+	"announce" : true,
 	"csharp" : "enable",
 	"port": 22005,
+	"language": "de",
 	"api-threading-debugging": false
 }
