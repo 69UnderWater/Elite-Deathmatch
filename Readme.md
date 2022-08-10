@@ -1,6 +1,5 @@
 # Elite Deathmatch 
 Viel spaß mit der Source.<br/>
-Lg. an Kokojamboo du bist nicht der einzige mit der Elite Source.
 
 ## Installation
 ```
